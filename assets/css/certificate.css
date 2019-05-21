@@ -1,0 +1,137 @@
+.certificate {
+    margin: 20px auto 20px;
+    background: #FFF;
+    box-shadow: 0 5px 15px 0 rgba(61,61,85,.15);
+    padding: 0;
+}
+
+.certificate__top {
+    padding: 60px;
+    background: url(/img/certificate_bg.svg) 50% 100px no-repeat;
+    background-size: 80% 80%;
+    height: 780px;
+}
+
+.certificate__awarded {
+    margin-top: 50px;
+    text-align: center;
+}
+.certificate__awarded strong {
+    display: block;
+}
+
+.header--stroke.certificate__person {
+    margin-bottom: 30px;
+}
+
+.certificate__badge {
+    display: block;
+    margin: 30px auto;
+    width: 280px;
+    height: 280px;
+}
+
+.certificate__hr {
+    background: #f0f0f2 url(/img/certificate_hr.svg);
+    background-size: 1050px;
+    background-position: bottom;
+    height: 38px;
+    border: 0;
+    margin: 0;
+    fill: #0083f5;
+    margin-top: -32px;
+}
+
+.certificate__bottom {
+    padding: 60px;
+    background: #f0f0f2;
+}
+
+
+.table--understand {
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+    
+}
+
+.table--understand th {
+}
+.table--understand td {
+    background: #FFF;
+    width: 140px;
+    color: #9898ab;
+    padding: 10px;
+}
+
+.table--understand strong {
+    display: block;
+}
+
+
+.table--understand .active {
+    background-color: rgb(140, 182, 109);
+    color: #000;
+}
+
+.header--stroke {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.header--stroke:before, .header--stroke:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #84849d;
+    opacity: .5;
+    position: absolute;
+    top: 49%;
+}
+
+
+.header--stroke:before {
+    left: -55px;
+}
+
+.header--stroke:after {
+    right: -55px;
+}
+
+
+span[data-clipboard] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.what-level {
+    padding: 30px 50px;
+    background: #FFF;
+}
+
+
+.btn--bg {
+    background: #3d3d55;
+    color: #FFF !important;
+    border-radius: 32px;
+    padding: 10px 20px !important;
+}
+
+.score-box em {
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(140, 182, 109);
+}
+
+.score-box__result {
+    margin-bottom: 40px;
+}
