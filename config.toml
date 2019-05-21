@@ -20,13 +20,15 @@ DisablePathToLower = true
   [[menu.main]]
       identifier = "redeem-code"
       name = "Redeem code"
-      url = ""
+      url = "https://lalonline.co/code"
+      target = "_blank"
       weight = 1
 
   [[menu.main]]
       identifier = "free-evaluation"
       name = "Free evaluation"
-      url = ""
+      url = "https://lalonline.co/evaluation"
+      target = "_blank"
       weight = 2
 
   [[menu.main]]

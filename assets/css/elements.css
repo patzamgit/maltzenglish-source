@@ -18,6 +18,11 @@ body {
 
 a {
     color: #4b4e53 !important;
+    text-decoration: underline;
+}
+
+a.btn, a.nav-link {
+    text-decoration: none;
 }
 
 hr {
