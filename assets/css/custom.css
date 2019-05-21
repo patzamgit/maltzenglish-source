@@ -5,6 +5,7 @@
 @import "choose-package.css";
 @import "get-cert.css";
 @import "add-to-linkedin.css";
+@import "hero.css";
 @import "footer.css";
 
 .video-link {
@@ -42,6 +43,7 @@
 
 .navbar {
     height: 85px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .navbar-brand {

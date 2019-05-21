@@ -1,0 +1,5 @@
+{{- $class := .Get "class" -}}
+{{- $background := .Get "background" -}}
+<div class="hero" style="background-image: url({{$background}})">
+    {{.Inner}}
+</div>

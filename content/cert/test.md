@@ -1,7 +1,7 @@
 ---
 title: "Certificate"
 type: "page"
-url: "/cert/h4T3o"
+url: "/cert/test"
 ---
 
 # Cert

@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = ""
 theme = "minimal-bootstrap-hugo-theme"
+DisablePathToLower = true
 
 [permalinks]
   page = "/:filename/"
