@@ -1,0 +1,31 @@
+.get-cert {
+    margin-top: 40px;
+}
+
+.get-cert h2 {
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+}
+
+
+.get-cert p {
+    margin: 20px 0 40px;
+}
+
+.get-cert__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    
+    margin: 20px auto 50px;
+
+    border: 1px solid #000000;
+
+    background: #FFFFFF;
+    color: #000000 !important;
+}

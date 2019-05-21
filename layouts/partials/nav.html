@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg" data-spy="affix"  data-offset-top="0">
+
+  <div class="container">
+
+  <a class="navbar-brand" href='/'>
+      <img src="/img/logo.svg" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto navbar--submenu">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      <li class="nav-item {{if eq $.URL .URL }} active{{ end }} nav-item--{{ .Identifier }}">
+{{ if findRE "^javascript:" .URL }}
+        <a class="nav-link" href="#" {{ printf "onclick=%q" ( replaceRE "^javascript:(.*)" "$1;return false;" .URL) | safeHTMLAttr }}>{{ .Name }}</a>
+{{ else }}
+        <a class="nav-link" {{ printf "href=%q" .URL | safeHTMLAttr }}>{{ .Name }}</a>
+{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+
+  </div>
+
+  </div>
+
+</nav>

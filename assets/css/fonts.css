@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Mont;
+    src: 
+        url(/fonts/Mont/Mont-Regular.woff2),
+        url(/fonts/Mont/Mont-Regular.woff);
+}
+
+@font-face {
+    font-family: Mont;
+    src:
+        url(/fonts/Mont/Mont-Bold.woff2),
+        url(/fonts/Mont/Mont-Bold.woff);
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: Campton;
+    src:
+            url(/fonts/Rene%20Bieder%20-%20Campton%20Book.otf);
+}
+
+@font-face {
+    font-family: Campton;
+    src:
+            url(/fonts/Rene%20Bieder%20-%20Campton%20Bold.otf);
+    font-weight: bold;
+}
+
+/*https://lalschools.com/wp-content/themes/lal-school/assets/fonts/Campton/Rene%20Bieder%20-%20Campton%20Medium.otf*/

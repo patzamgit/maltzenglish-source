@@ -1,0 +1,75 @@
+@import "fonts.css";
+@import "elements.css";
+@import "magnific-popup.css";
+@import "page-header-test.css";
+@import "choose-package.css";
+@import "get-cert.css";
+@import "add-to-linkedin.css";
+@import "footer.css";
+
+.video-link {
+    position: relative;
+    display: block;
+}
+
+.video-link__img {
+    width: 100%;
+}
+
+.video-link > .fa-play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid #535961;
+    color: #535961;
+    text-transform: uppercase;
+    padding: 8px 25px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-decoration: none !important;
+}
+
+.button:hover {
+    background: black!important;
+    border: 2px solid #4b4e53!important;
+    color: #FFF!important;
+}
+
+.navbar {
+    height: 85px;
+}
+
+.navbar-brand {
+    color: #4b4e53 !important;
+    font-weight: normal;
+    font-size: 45px;
+    height: 55px;
+}
+
+.navbar-brand > img {
+    width: auto;
+    height: 100%;
+    font-size: 16px;
+}
+
+.navbar--submenu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item--student-login > .nav-link {
+    background: #3d3d55;
+    color: #FFF !important;
+    border-radius: 32px;
+    padding: 10px 20px !important;
+}
+
+main.container {
+    min-height: calc(100vh - 85px - 50px - 100px - 51px);
+}
+

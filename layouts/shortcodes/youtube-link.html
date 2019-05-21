@@ -1,0 +1,9 @@
+{{- $id := .Get "id" -}}
+{{- $alt := .Get "alt" -}}
+
+<a class="video-link" href="https://www.youtube.com/watch?v={{ $id }}" target="_blank">
+    <img src="https://i.ytimg.com/vi/{{ $id }}/mqdefault.jpg" alt="{{$alt}}" class="video-link__img">
+    <i class="fas fa-3x fa-play"></i>
+</a>
+
+{{.Inner}}

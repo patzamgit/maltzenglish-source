@@ -1,0 +1,10 @@
+{{- $class := .Get "class" -}}
+{{- $summary := .Get "summary" -}}
+<details class="{{$class}}">
+    <summary>
+        <i class="fas fa-chevron-circle-up"></i>
+        <i class="fas fa-chevron-circle-down"></i>
+        {{$summary}}
+    </summary>
+    {{.Inner}}
+</details>

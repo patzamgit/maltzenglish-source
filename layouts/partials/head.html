@@ -1,0 +1,49 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+  {{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  <meta property="og:description" content="{{ . }}">
+  {{ end }}
+
+  <meta name="keywords" content="Mobile ADR, Voice acting, Mobile ADR, iphone ADR, ADR Recording Software" >
+
+  <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+  <meta property="og:image" content="/img/todd-ao-logo-1200-square.jpg">
+
+  {{/* https://www.emergeinteractive.com/insights/detail/The-Essentials-of-FavIcons */}}
+
+  {{ $bootstrapCss := "css/bootstrap.min.css" }}
+  <link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />
+
+{{ if .Site.IsServer }}
+
+  {{ $vars := printf "@import 'css/custom.css' " | resources.FromString "css/custom.css" }}
+  {{ $style := $vars | resources.PostCSS (dict "noMap" false) | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+  {{ range .Page.Params.css_files }}
+  {{ $vars := printf "@import '%s';" . | resources.FromString . }}
+  {{ $style := $vars | resources.PostCSS (dict "noMap" false) | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  {{ end }}
+
+{{ else }}
+  <link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />
+  {{ $vars := printf "@import 'css/custom.css' " | resources.FromString "css/custom.css" }}
+  {{ $style := $vars | resources.PostCSS (dict "noMap" true) | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  {{ range .Page.Params.css_files }}
+  {{ $vars := printf "@import '%s';" . | resources.FromString . }}
+  {{ $style := $vars | resources.PostCSS (dict "noMap" true) | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  {{ end }}
+{{ end }}
+
+  <link rel="shortcut icon" href="/img/favicon.png">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>

@@ -1,0 +1,39 @@
+{{ define "main"}}
+<main id="main">
+    <div class="error-message">
+        <h1>Page Not Found 😟</h1>
+        <p>
+            If this keeps happening, contact us at <a href="mailto:software@todd-ao.com" target="_top">software@todd-ao.com</a>
+            <br>
+            <a href="{{ "/" | relURL }}">Click here to go home</a>.
+        </p>
+    </div>
+</main>
+<style>
+    .error-message {
+        text-align: center;
+        width: 100%;
+        max-width: 800px;
+        height: 80vh;
+        margin: 17% auto;
+    }
+
+    .error-message h1 {
+        font-size: 36px;
+        font-weight: 400;
+        margin: 24px;
+        text-align: center;
+    }
+
+    .error-message p {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+
+    .error-message a:link, .error-message a:visited {
+        text-decoration: underline !important;
+        font-weight: 300 !important;
+    }
+</style>
+{{ end }}

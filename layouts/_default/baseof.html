@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+
+<body>
+  {{ partial "nav.html" . }}
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "page-footer.html" . }}
+
+  {{ partial "bootstrap-js.html" . }}
+  {{ partial "google-analytics-async.html" . }}
+  
+  {{ range .Page.Params.js_files }}
+  <script src='{{. | absURL }}'></script>
+  {{ end }}
+
+</body>
+
+</html>
