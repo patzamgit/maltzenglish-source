@@ -17,13 +17,13 @@ Once you're ready to showcase your LAL SET English certificate, follow our step-
 The LinkedIn Add-to-Profile option is only available with completion of the 50-minute LAL SET or the 120-minute LAL SET Plus.
 
 <div class="text-center">
-<img alt="Score result" src="img1.png" class="w-75">
+<img alt="Score result" src="img1.png" class="mw-100">
 </div>
 
 **Step 2: Click on “Add-to-Profile” button from the LAL SET Results Page**
 
 <div class="text-center">
-<img alt="Add to profile" src="img2.png" class="w-75">
+<img alt="Add to profile" src="img2.png" class="mw-100">
 </div>
 
 You may be prompted to sign in to LinkedIn or to create an account, if you do not already have one.
@@ -31,7 +31,7 @@ You may be prompted to sign in to LinkedIn or to create an account, if you do no
 Once in LinkedIn, you will be shown the Add-to-Profile form.
 
 <div class="text-center">
-<img alt="Add to profile dialog" src="img4.png" class="w-75">
+<img alt="Add to profile dialog" src="img4.png" class="mw-100">
 </div>
 
 **Step 3: Fill out the form**
@@ -39,7 +39,7 @@ In the "Certification name" field, enter the test name, score out of 100 and you
 All of these details can be found on your unique Certificate URL. For example: LAL SET English Certificate 94/100 (C2 Proficient)
 
 <div class="text-center">
-<img alt="Certification name" src="img5.png" class="w-75">
+<img alt="Certification name" src="img5.png" class="mw-100">
 </div>
 
 {{% /md %}}
