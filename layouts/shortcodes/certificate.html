@@ -1,7 +1,8 @@
-<div class="container certificate">
+<div class="certificate">
     <div class="certificate__top">
         <div>
-            <img src="/img/logo.svg"/>
+            <img class="certificate__logo" src="/img/logo.svg"/>
+            <img class="certificate__icon" src="/img/certificate_badge.png"/>
         </div>
         <p class="text-center">
             <strong>This to certify that</strong>
@@ -12,7 +13,9 @@
         <p class="text-center">
             has successfully completed the Certificate and earned English level:
         </p>
-        <img class="certificate__badge" src="/img/certificate_badge.png"/>
+        <div class="certificate__badge">
+            <img src="/img/certificate_badge.png"/>
+        </div>
         <div class="certificate__awarded">
             <strong>Awarded on:</strong>
             8 Jun 2018
@@ -21,7 +24,7 @@
     <hr class="certificate__hr"/>
     <div class="certificate__bottom">
         <h3 class="text-center">Understanding the results</h3>
-        <table class="table-responsive table--understand">
+        <table class="table--understand d-none d-md-table">
             <tr>
                 <th>LAL SET</th>
                 <td><strong>1-30</strong></td>
@@ -59,6 +62,54 @@
                 </td>
             </tr>
         </table>
+        <table class="table--understand d-table d-md-none">
+            <tr>
+                <th>LAL SET</th>
+                <th>CEFR</th>
+            </tr>
+            <tr>
+                <td><strong>1-30</strong></td>
+                <td>
+                    <strong>A1</strong>
+                    Beginner
+                </td>
+            </tr>
+            <tr>
+                <td><strong>31-40</strong></td>
+                <td>
+                    <strong>A2</strong>
+                    Elementary
+                </td>
+            </tr>
+            <tr>
+                <td class="active"><strong>41-50</strong></td>
+                <td class="active">
+                    <strong>B1</strong>
+                    Intermediate
+                </td>
+            </tr>
+            <tr>
+                <td><strong>51-60</strong></td>
+                <td>
+                    <strong>B2</strong>
+                    Upper Intermediate
+                </td>
+            </tr>
+            <tr>
+                <td><strong>61-70</strong></td>
+                <td>
+                    <strong>C1</strong>
+                    Advanced
+                </td>
+            </tr>
+            <tr>
+                <td><strong>71-100</strong></td>
+                <td>
+                    <strong>C2</strong>
+                    Proficient
+                </td>
+            </tr>
+        </table>
         <p class="text-center mt-5 mb-5 ml-5 mr-5">
             The achieved English level is 45/100 on the LAL SET score scale and B1 Intermediate according to the Common European Framework of Reference (CEFR). The LAL SET score is calculated as an average of the reading and listening scores.
         </p>
@@ -68,7 +119,7 @@
                     <div class="col-auto">
                         <i class="fas fa-3x fa-microphone-alt"></i>
                     </div>
-                    <div class="col row align-content-center">
+                    <div class="col flex-column align-content-center">
                         <h3>Speaking Section</h3>
                         <div>
                             <em>50/100</em> B1 Intermediate
@@ -90,7 +141,7 @@
                     <div class="col-auto">
                         <i class="fas fa-3x fa-headphones"></i>
                     </div>
-                    <div class="col row align-content-center">
+                    <div class="col flex-column align-content-center">
                         <h3>Listening Section</h3>
                         <div>
                             <em>41/100</em> B1 Intermediate
@@ -111,10 +162,10 @@
     </div>
 </div>
 
-<div class="container w-50">
+<div class="container--cert">
     <div class="text-center">
         <h3 class="certificate__person header--stroke mt-5 mb-3">About LAL SET</h3>
-        <p class="text-center mb-5">
+        <p class="text-center mb-5 pl-4 pr-4">
             The LAL Standard English Test (LAL SET) is the world’s first completely free, online standardized English test for learners of all levels,
             from beginner to advanced. As part of LAL Education First, we draw upon a 50-year legacy of academic excellence,
             having helped more than 20 million people across the world to successfully learn English.
@@ -123,7 +174,7 @@
 </div>
 
 
-<div class="container what-level">
+<div class="container--cert what-level">
     <div class="row align-items-center justify-content-center text-center">
         <div class="col-md-auto">
             <h3>What is your English level?</h3>
@@ -137,7 +188,7 @@
     </div>
 </div>
 
-<div class="container text-center mt-5 mb-5">
+<div class="container--cert text-center mt-5 mb-5">
     <div>
         <span data-clipboard="https://lalonline.co/cert/h4T3o"><i class="fas fa-2x fa-link"></i></span>
     </div>
