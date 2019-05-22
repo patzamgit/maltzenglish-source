@@ -1,15 +1,15 @@
 @font-face {
     font-family: Mont;
     src: 
-        url(/fonts/Mont/Mont-Regular.woff2),
-        url(/fonts/Mont/Mont-Regular.woff);
+        url(/fonts/Mont-Regular.woff2),
+        url(/fonts/Mont-Regular.woff);
 }
 
 @font-face {
     font-family: Mont;
     src:
-        url(/fonts/Mont/Mont-Bold.woff2),
-        url(/fonts/Mont/Mont-Bold.woff);
+        url(/fonts/Mont-Bold.woff2),
+        url(/fonts/Mont-Bold.woff);
     font-weight: bold;
 }
 

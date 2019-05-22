@@ -12,3 +12,5 @@ js_files:
 {{% page-header-test /%}}
 
 {{% choose-package /%}}
+
+{{% referrals /%}}

@@ -1,0 +1,42 @@
+.referrals {
+    background: #DDD;
+    margin-top: -150px;
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
+.referral-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.referral-box > h3 {
+    font-size: 14px;
+}
+
+.referral-box__border-object {
+    position: relative;
+    border: 1px solid #000;
+    width: 100%;
+    margin: 20px 0 20px;
+    padding: 20px;
+
+    font-family: Mont, 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.referral-box__num {
+    position: absolute;
+    background: #DDD;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10px;
+    padding: 0 20px;
+    
+    text-align: center;
+    font-family: Mont, 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}

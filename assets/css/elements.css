@@ -16,6 +16,10 @@ body {
     background: #EEE;
 }
 
+h1, h2, h3 {
+    font-family: Mont, 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
 a {
     color: #4b4e53 !important;
     text-decoration: underline;

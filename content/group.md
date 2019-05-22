@@ -10,10 +10,10 @@ url: "/group"
 
 <div class="container choose-package__box choose-package__box--hero">
 <div class="row">
-    <div class="col">
-        <img src="/img/package-pt.jpg" class="w-100" />
+    <div class="col-md-6 col-12">
+        <img src="/img/package-group.jpg" class="w-100 mb-3" />
     </div>
-    <div class="col">
+    <div class="col-md-6 col-12">
         <h2>
             <i class="fas fa-user-friends choose-package__icon"></i>
             Group (4 students)
