@@ -22,8 +22,18 @@
     color: #adb5bd;
 }
 
+.lal-social-dark a {
+    vertical-align: middle;
+    line-height: 36px;
+}
+
 .page-footer {
     background: #FFF;
     border-top: 1px solid #dee2e6;
     padding: 20px 0;
+}
+
+.lal-footer-copyright__text {
+    line-height: 36px;
+    vertical-align: middle;
 }

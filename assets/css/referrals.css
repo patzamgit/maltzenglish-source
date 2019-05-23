@@ -1,7 +1,15 @@
-.referrals {
-    background: #DDD;
+.referrals--tablet {
+    background: #FDFDFE;
+    background-image: url(/img/homepage-bottom-bg.png);
+    background-size: cover;
+    background-position: center bottom;
+
     margin-top: -150px;
     padding-top: 170px;
+}
+
+.referrals {
+    background: #FDFDFE;
     padding-bottom: 90px;
 }
 
@@ -30,7 +38,7 @@
 
 .referral-box__num {
     position: absolute;
-    background: #DDD;
+    background: #FDFDFE;
     left: 50%;
     transform: translateX(-50%);
     top: -10px;
