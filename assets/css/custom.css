@@ -118,7 +118,7 @@ main.container {
     background-image: linear-gradient(282deg,#4999f8,#456ba2);
 }
 
-.bg-abstrack--green {
+.bg-abstract--green {
     background-image: linear-gradient(282deg,#15d0a0,#1a997d);
 }
 
@@ -139,4 +139,12 @@ main.container {
     .navbar-collapse {
         padding-right: 0 !important;
     }
+}
+
+.container--faq h2 {
+    margin-top: 50px;
+}
+
+.container--linkedin {
+    max-width: 630px;
 }

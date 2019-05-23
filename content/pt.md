@@ -4,7 +4,7 @@ type: "page"
 url: "/pt"
 ---
 
-<div class="hero-abstract bg-abstract bg-abstract--blue">
+<div class="hero-abstract bg-abstract bg-abstract--green">
     <h1>Take the Quick Check in 15 minutes</h1>
 </div>
 
@@ -22,11 +22,11 @@ url: "/pt"
             Recommended if you quickly want to know your English level or practice for an English
             certification
         </p>
-        <a class="btn btn-package--personal" href="/quick-english-check/">Book now</a>
-        <ul class="fa-ul mt-3">
+        <a class="btn btn-package--personal mt-5 mb-5" href="/quick-english-check/">Book now</a>
+        <ul class="fa-ul ul--group-bullets">
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
-                No fees.No sign up. Start immediately.
+                No fees. No sign up. Start immediately.
             </li>
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
@@ -41,11 +41,12 @@ url: "/pt"
 </div>
 </div>
         
-
 <div class="container">
-    <div class="row justify-content-center">
-        <p class="w-50 text-center">
+    <div class="flex-column justify-content-center w-75 m-auto">
+        <p class="text-center text--recommend">
             Recommended if you want to quickly assess your English skills, both reading and listening.
+        </p>
+        <p class="text-center text--share">
             Share your LAL SET score on social media channels
         </p>
     </div>
@@ -78,7 +79,7 @@ url: "/pt"
 </div>
 </div>
 
-<div class="container">
+<div class="container pb-5">
     <div class="d-none d-md-block text-center">
         <img class="w-75" src="/img/cert-badges-desktop.png" />
     </div>
@@ -87,7 +88,8 @@ url: "/pt"
     </div>
 </div>
 
-<div class="container mt-5 mb-5">
+<div class="d-none d-md-block bg-white pt-5 pb-5">
+<div class="container">
     <div class="d-none d-md-block text-center">
         <h3>Have more time? Get an official LAL SET Certificate</h3>
         <p>
@@ -95,4 +97,5 @@ url: "/pt"
         </p>
         <a href="/group">See group</a>
     </div>
+</div>
 </div>

@@ -29,6 +29,9 @@
 
 .page-footer {
     background: #FFF;
+}
+
+.page-footer > .container > .row {
     border-top: 1px solid #dee2e6;
     padding: 20px 0;
 }

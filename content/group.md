@@ -22,11 +22,11 @@ url: "/group"
             Recommended if you quickly want to know your English level or practice for an English
             certification
         </p>
-        <a class="btn btn-package--group" href="/quick-english-check/">Book now</a>
-        <ul class="fa-ul mt-3">
+        <a class="btn btn-package--group mt-5 mb-5" href="/quick-english-check/">Book now</a>
+        <ul class="fa-ul ul--group-bullets">
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
-                No fees.No sign up. Start immediately.
+                No fees. No sign up. Start immediately.
             </li>
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
@@ -41,11 +41,12 @@ url: "/group"
 </div>
 </div>
         
-
 <div class="container">
-    <div class="row justify-content-center">
-        <p class="w-50 text-center">
+    <div class="flex-column justify-content-center w-75 m-auto">
+        <p class="text-center text--recommend">
             Recommended if you want to quickly assess your English skills, both reading and listening.
+        </p>
+        <p class="text-center text--share">
             Share your LAL SET score on social media channels
         </p>
     </div>
@@ -78,7 +79,7 @@ url: "/group"
 </div>
 </div>
 
-<div class="container">
+<div class="container pb-5">
     <div class="d-none d-md-block text-center">
         <img class="w-75" src="/img/cert-badges-desktop.png" />
     </div>
@@ -87,12 +88,14 @@ url: "/group"
     </div>
 </div>
 
-<div class="container mt-5 mb-5">
-    <div class="d-none d-md-block text-center">
+<div class="d-none d-md-block bg-white pt-5 pb-5">
+<div class="container">
+    <div class="text-center">
         <h3>Have more time? Get an official LAL SET Certificate</h3>
         <p>
         Take our 50-minute LAL SET to receive your personalized English certificate URL to add to your LinkedIn profile or CV. In addition, you will receive a comprehensive analysis of your reading and listening skills, and an exact result aligned with the recognized CEFR levels.
         </p>
         <a href="/pt">See personal trainer</a>
     </div>
+</div>
 </div>

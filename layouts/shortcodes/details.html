@@ -1,6 +1,7 @@
 {{- $class := .Get "class" -}}
 {{- $summary := .Get "summary" -}}
-<details class="{{$class}}">
+{{- $open := .Get "open" -}}
+<details class="{{$class}}" {{if $open}}open{{end}} >
     <summary>
         <i class="fas fa-chevron-circle-up"></i>
         <i class="fas fa-chevron-circle-down"></i>
