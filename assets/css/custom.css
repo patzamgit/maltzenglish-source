@@ -148,3 +148,35 @@ main.container {
 .container--linkedin {
     max-width: 630px;
 }
+
+
+@media (max-width: 991px) {
+    .navbar {
+        position: initial;
+    }
+
+    .navbar-collapse {
+        transition: width 0.5s;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0 !important;
+        background: #FFF;
+        
+        width: 400px;
+        max-width: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        height: initial !important;
+    }
+
+    .navbar--submenu {
+         align-items: flex-start; 
+    }
+    
+    .nav-item--student-login > .nav-link {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}

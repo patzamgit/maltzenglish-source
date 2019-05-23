@@ -13,6 +13,14 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="mt-4 mb-4 d-block d-md-none">
+          <button type="button" class="close fa-3x text-danger" aria-label="Close" data-toggle="collapse" data-target="#navbarSupportedContent">
+              <span aria-hidden="true">&times;</span>
+          </button>
+          <h4>Menu</h4>
+      </div>
+      
+      
     <ul class="navbar-nav ml-auto navbar--submenu">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
