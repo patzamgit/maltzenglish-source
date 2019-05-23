@@ -149,6 +149,9 @@ main.container {
     max-width: 630px;
 }
 
+.container {
+    max-width: 960px;
+}
 
 @media (max-width: 991px) {
     .navbar {
