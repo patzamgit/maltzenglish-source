@@ -61,6 +61,8 @@
     
     font-size: 28px;
     line-height: 40px;
+    
+    padding: 10px;
 }
 
 .btn--free-eval {
@@ -83,6 +85,7 @@
 
 .why-study {
     max-width: 720px;
+    padding-right: 10px;
 }
 
 .why-study.fa-ul {

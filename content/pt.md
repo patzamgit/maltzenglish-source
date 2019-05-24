@@ -10,15 +10,25 @@ url: "/pt"
 
 <div class="container choose-package__box choose-package__box--hero">
 <div class="row">
-    <div class="col-md-6 col-12">
-        <img src="/img/package-pt.jpg" class="w-100 mb-3" />
-    </div>
-    <div class="col-md-6 col-12">
-        <h2>
+    <div class="col-12 d-md-none">
+        <h2 class="mb-0">
             <i class="fas fa-user choose-package__icon"></i>
             Personal Trainer
         </h2>
         <p>
+            Recommended if you quickly want to know your English level or practice for an English
+            certification
+        </p>
+    </div>
+    <div class="col-md-6 col-12">
+        <img src="/img/package-pt.jpg" class="w-100" />
+    </div>
+    <div class="col-md-6 col-12">
+        <h2 class="d-none d-md-block mb-0">
+            <i class="fas fa-user choose-package__icon"></i>
+            Personal Trainer
+        </h2>
+        <p class="d-none d-md-block">
             Recommended if you quickly want to know your English level or practice for an English
             certification
         </p>

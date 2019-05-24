@@ -96,7 +96,8 @@ main.container {
 .hero-abstract {
     display: flex;
     height: 255px;
-    padding: 0 0 40px;
+    padding: 0 60px;
+    padding-bottom: 90px;
 
     align-items: center;
     justify-content: center;
@@ -105,9 +106,20 @@ main.container {
 
 .hero-abstract h1 {
     margin: auto;
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     color: #FFF;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-abstract h1 {
+        font-size: 45px;
+    }
+    .hero-abstract {
+    }
+}
+
+@media screen and (min-width: 977px) {
 }
 
 .bg-abstract {
@@ -146,11 +158,19 @@ main.container {
 }
 
 .container--linkedin {
-    max-width: 630px;
+    max-width: 630px !important;
+}
+
+.container--linkedin h2 {
+    margin-top: 60px;
 }
 
 .container {
     max-width: 960px;
+}
+
+.navbar-collapse__header {
+    display: none;
 }
 
 @media (max-width: 991px) {
@@ -159,15 +179,22 @@ main.container {
     }
 
     .navbar-collapse {
-        transition: width 0.5s;
+        transition: right 1s !important;
         position: absolute;
         top: 0;
-        right: 0;
+        right: -400px;
         bottom: 0 !important;
         background: #FFF;
         
         width: 400px;
         max-width: 100%;
+    }
+    .navbar-collapse.show {
+        right: 0;
+    }
+    
+    .navbar-collapse__header {
+        display: block;
     }
 
     .navbar-collapse.collapsing {
@@ -176,6 +203,10 @@ main.container {
 
     .navbar--submenu {
          align-items: flex-start; 
+    }
+    
+    .nav-item {
+        margin-top: 20px;
     }
     
     .nav-item--student-login > .nav-link {
