@@ -111,6 +111,7 @@
     width: 140px;
     color: #9898ab;
     padding: 10px;
+    vertical-align: top;
 }
 
 .table--understand strong {
