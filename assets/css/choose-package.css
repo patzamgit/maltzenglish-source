@@ -8,7 +8,7 @@
 }
 
 .choose-package__box--hero {
-    width: 970px;
+    max-width: 970px;
     position: relative;
     top: -150px;
     margin-bottom: -100px !important;

@@ -17,7 +17,7 @@
         </div>
   
       </div>
-      <div class="col-12 col-md-auto justify-md-content-end row d-none d-md-flex">
+      <div class="col-12 col-md-auto justify-md-content-end row d-none d-md-flex mr-0">
         
         <ul class="lal-social-dark align-self-end">
           <li class="item">
@@ -47,5 +47,49 @@
     </div>
   </div>
 </footer>
+
+<style>
+  @keyframes spinner {
+    to {transform: rotate(360deg);}
+  }
+  .spinner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: #FFF;
+    z-index: 9999;
+  }
+  .spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #000;
+    animation: spinner .6s linear infinite;
+  }
+</style>
+<script>
+    var bg = document.createElement('div');
+    bg.classList.add('spinner-bg');
+    document.body.appendChild(bg);
+
+    var div = document.createElement('div');
+    div.classList.add('spinner');
+    bg.appendChild(div);
+
+    window.onload = function() {
+        bg.parentElement.removeChild(bg);
+    };
+</script>
 
 {{ end }}
