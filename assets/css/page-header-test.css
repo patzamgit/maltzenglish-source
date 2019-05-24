@@ -7,31 +7,42 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto 100px;
-    padding: 90px 0 140px;
     position: relative;
 
     align-items: center;
     flex-direction: column;
     background-size: cover;
 
-    
     color: #FFFFFF;
 }
 
+.page-header-test_bg {
+    overflow: hidden;
+    padding: 90px 0 140px;
+    max-width: 100vw;
+}
 
 @media (min-width: 992px) {
-  .page-header-test:before {
-      top: 234px;
-      right: -40px;
-      width: 697px;
-      height: 684px;
-      content: '';
-      position: absolute;
-      background-image: url(/img/badge-bg.png);
-      background-repeat: no-repeat;
-      background-position: bottom left;
-  }
+    .page-header-test_bg_img {
+        top: 234px;
+        right: 0px;
+        width: 697px;
+        height: 684px;
+        content: '';
+        position: absolute;
+        background-image: url(/img/badge-bg.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        pointer-events: none;
+    }
 }
+
+@media (min-width: 1380px) {
+    .page-header-test_bg_img {
+        right: -40px;
+    }
+}
+
 
 .page-header-test h1 {
     font-size: 45px;
@@ -59,10 +70,17 @@
     
     text-align: center;
     
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 30px;
     
     padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .page-header-test h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
 }
 
 .btn--free-eval {

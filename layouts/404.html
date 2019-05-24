@@ -3,7 +3,7 @@
     <div class="error-message">
         <h1>Page Not Found 😟</h1>
         <p>
-            If this keeps happening, contact us at <a href="mailto:software@todd-ao.com" target="_top">software@todd-ao.com</a>
+            If this keeps happening, contact us at <a href="mailto:info@lalonline.co" target="_top">info@lalonline.co</a>
             <br>
             <a href="{{ "/" | relURL }}">Click here to go home</a>.
         </p>
@@ -14,8 +14,9 @@
         text-align: center;
         width: 100%;
         max-width: 800px;
-        height: 80vh;
-        margin: 17% auto;
+        height: calc(100vh - 85px - 77px); /* 101px */
+        margin: 0 auto;
+        padding: 17% 20px;
     }
 
     .error-message h1 {

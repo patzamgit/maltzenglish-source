@@ -4,6 +4,7 @@
     width: 100%;
     
     color: #3d3d55;
+    overflow: hidden;
 }
 
 .container--cert {
@@ -243,3 +244,28 @@ span[data-clipboard] {
 
 }
 
+.copylink-copy-message {
+    position: absolute;
+    background: #e99e42;
+    color: #fff;
+    padding: 10px 19px;
+    border-radius: 20px;
+    font-size: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    pointer-events: none;
+    /*top: 0;*/
+}
+
+.copylink-copy-message--show {
+    animation: show-tooltip 1.5s;
+}
+
+
+@keyframes show-tooltip{
+    0%{opacity:0;bottom:100%}
+    30%{opacity:1;bottom:calc(100% + 15px)}
+    80%{opacity:1;bottom:calc(100% + 15px)}
+    to{opacity:0;bottom:calc(100% + 5px)}
+}
