@@ -1,11 +1,11 @@
 ---
-title: "Personal trainer"
+title: "Personal trainer plan"
 type: "page"
 url: "/pt"
 ---
 
 <div class="hero-abstract bg-abstract bg-abstract--green">
-    <h1>Take the Quick Check in 15 minutes</h1>
+    <h1>Improve your English with a personal trainer</h1>
 </div>
 
 <div class="container choose-package__box choose-package__box--hero">
@@ -16,8 +16,7 @@ url: "/pt"
             Personal Trainer
         </h2>
         <p>
-            Recommended if you quickly want to know your English level or practice for an English
-            certification
+	    Improve your level of English proficiency with personal trainer from USA or UK.            
         </p>
     </div>
     <div class="col-md-6 col-12">
@@ -29,14 +28,13 @@ url: "/pt"
             Personal Trainer
         </h2>
         <p class="d-none d-md-block">
-            Recommended if you quickly want to know your English level or practice for an English
-            certification
+	    Recommended if you quickly want to reach the next level according to your own schedule.
         </p>
-        <a class="btn btn-package--personal mt-5 mb-5" href="/quick-english-check/">Book now</a>
+        <a class="btn btn-package--personal mt-5 mb-5" href="https://languagepanel.com/plan/lal/buypack/TEFMMDAwOTk=" target="_blank">Get started!</a>
         <ul class="fa-ul ul--group-bullets">
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
-                No fees. No sign up. Start immediately.
+                Start immediately according to your schedule
             </li>
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
@@ -101,11 +99,11 @@ url: "/pt"
 <div class="d-none d-md-block bg-white pt-5 pb-5">
 <div class="container">
     <div class="d-none d-md-block text-center">
-        <h3>Have more time? Get an official LAL SET Certificate</h3>
+        <h3>Have more time? Join a GROUP class!</h3>
         <p>
-        Take our 50-minute LAL SET to receive your personalized English certificate URL to add to your LinkedIn profile or CV. In addition, you will receive a comprehensive analysis of your reading and listening skills, and an exact result aligned with the recognized CEFR levels.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         </p>
-        <a href="/group">See group</a>
+        <a href="/group">See group plan</a>
     </div>
 </div>
 </div>

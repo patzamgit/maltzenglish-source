@@ -1,11 +1,11 @@
 ---
-title: "Group"
+title: "Group plan"
 type: "page"
 url: "/group"
 ---
 
 <div class="hero-abstract bg-abstract bg-abstract--blue">
-    <h1>Take the Quick Check in 15 minutes</h1>
+    <h1>Study English in a group virtual classroom</h1>
 </div>
 
 <div class="container choose-package__box choose-package__box--hero">
@@ -16,8 +16,7 @@ url: "/group"
             Group (4 students)
         </h2>
         <p>
-            Recommended if you quickly want to know your English level or practice for an English
-            certification
+	    Forming study groups is a very effective strategy for enhancing learning. Groups share unique insights and learn from each other.
         </p>
     </div>
     <div class="col-md-6 col-12">
@@ -32,11 +31,11 @@ url: "/group"
             Recommended if you quickly want to know your English level or practice for an English
             certification
         </p>
-        <a class="btn btn-package--group mt-5 mb-5" href="/quick-english-check/">Book now</a>
+        <a class="btn btn-package--group mt-5 mb-5" href="https://languagepanel.com/plan/lal/buypack/TEFMMDAxMDA=" target="_blank">Get started!</a>
         <ul class="fa-ul ul--group-bullets">
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
-                No fees. No sign up. Start immediately.
+                Online classes start every week!
             </li>
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
@@ -101,11 +100,11 @@ url: "/group"
 <div class="d-none d-md-block bg-white pt-5 pb-5">
 <div class="container">
     <div class="text-center">
-        <h3>Have more time? Get an official LAL SET Certificate</h3>
+        <h3>Don't have enough time? Get a personalized schedule with your own trainer.</h3>
         <p>
-        Take our 50-minute LAL SET to receive your personalized English certificate URL to add to your LinkedIn profile or CV. In addition, you will receive a comprehensive analysis of your reading and listening skills, and an exact result aligned with the recognized CEFR levels.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
-        <a href="/pt">See personal trainer</a>
+        <a href="/pt">See personal trainer plan</a>
     </div>
 </div>
 </div>
