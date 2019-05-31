@@ -1,6 +1,6 @@
 .page-header-test {
     background: lightgrey;
-    background-image: url(/img/hero-image-desktop.jpg);
+    background-image: url(/img/hero-image-desktop.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -67,9 +67,7 @@
     background: #FFF;
     color: #333333;
     box-shadow: 0 0 15px 5px rgba(37,37,64,.08);
-    
-    text-align: center;
-    
+    text-align: center;    
     font-size: 22px;
     line-height: 30px;
     
@@ -90,14 +88,14 @@
     margin: 40px auto;
     
     padding: 0 20px;
-    max-width: 150px;
+    max-width: 170px;
     width: auto;
     height: 50px;
-
-    background-color: #15d0a0;
-    color: #FFF !important;
+    background-color: #ffffff;
+    color: #3d3d54 !important;
     font-size: 14px;
     font-weight: 400;
+	
 }
 
 

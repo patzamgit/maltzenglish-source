@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "LAL Online"
+title = "LAL Online® Certification"
 theme = "minimal-bootstrap-hugo-theme"
 DisablePathToLower = true
 
