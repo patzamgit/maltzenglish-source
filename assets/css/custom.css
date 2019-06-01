@@ -5,6 +5,7 @@
 @import "choose-package.css";
 @import "get-cert.css";
 @import "add-to-linkedin.css";
+@import "cards.css";
 @import "hero.css";
 @import "certificate.css";
 @import "referrals.css";
@@ -135,6 +136,10 @@ main.container {
 
 .bg-abstract--green {
     background-image: linear-gradient(282deg,#15d0a0,#1a997d);
+}
+
+.bg-abstract--PURPLE {
+    background-image: linear-gradient(282deg,#3D3B55,#2c2a43);
 }
 
 .bg-abstract:before {

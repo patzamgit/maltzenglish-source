@@ -1,0 +1,24 @@
+.cards {
+    margin-bottom: 60px;
+}
+
+.add-to-linkedin__box {
+    position: relative;
+    z-index: 1;
+    margin-top: -150px;
+    background: #FFF;
+    padding: 60px;
+    max-width: 970px;
+    
+    border-radius: 4px;
+    box-shadow: 0 0 15px 5px rgba(37,37,64,.08);
+}
+
+.add-to-linkedin__img {
+    position: relative;
+}
+
+.add-to-linkedin__img img {
+    width: 100%;
+    height: auto;
+}
