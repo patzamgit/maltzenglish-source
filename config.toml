@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "LAL Online® Certification"
+title = "EasySpeak Online by Bay Language Institute"
 theme = "minimal-bootstrap-hugo-theme"
 DisablePathToLower = true
 
@@ -20,14 +20,14 @@ DisablePathToLower = true
   [[menu.main]]
       identifier = "redeem-code"
       name = "Redeem code"
-      url = "/code"
+      url = "https://languagepanel.com/bli/code"
       target = "_blank"
       weight = 1
 
   [[menu.main]]
       identifier = "free-evaluation"
       name = "Free evaluation"
-      url = "/callback"
+      url = "https://languagepanel.com/bli/callback"
       target = "_blank"
       weight = 2
 
@@ -40,6 +40,6 @@ DisablePathToLower = true
   [[menu.main]]
       identifier = "student-login"
       name = "Student Login"
-      url = "/student"
+      url = "https://languagepanel.com/bli/student"
       cssClass = "button--login"
       weight = 20
