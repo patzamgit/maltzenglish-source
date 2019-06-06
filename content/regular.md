@@ -30,7 +30,7 @@ url: "/regular"
         <p class="d-none d-md-block">
 	    Improve your level of English proficiency, <strong>twice a week</strong> with personal trainer from USA, UK or South Africa. 
         </p>
-        <a class="btn btn-package--personal mt-5 mb-5" href="https://languagepanel.com/plan/lal/buypack/TEFMMDAwOTk=" target="_blank">Get started!</a>
+        <a class="btn btn-package--personal mt-5 mb-5" href="https://languagepanel.com/plan/bli/buypack/QkxJMDAxMDE=" target="_blank">Get started!</a>
         <ul class="fa-ul ul--group-bullets">
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>

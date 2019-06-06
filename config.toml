@@ -32,12 +32,6 @@ DisablePathToLower = true
       weight = 2
 
   [[menu.main]]
-      identifier = "faq"
-      name = "FAQ"
-      url = "/faq"
-      weight = 3
-
-  [[menu.main]]
       identifier = "student-login"
       name = "Student Login"
       url = "https://languagepanel.com/bli/student"
