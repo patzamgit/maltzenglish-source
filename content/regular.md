@@ -34,15 +34,15 @@ url: "/regular"
         <ul class="fa-ul ul--group-bullets">
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
+                $120/month (cancel anytime)
+            </li>
+            <li>
+                <span class="fa-li" ><i class="far fa-check-circle"></i></span>
                 25-minute lessons
             </li>
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
             	Monthly assessments
-            </li>
-            <li>
-                <span class="fa-li" ><i class="far fa-check-circle"></i></span>
-            	Different packages to suit every learning goal
             </li>
             <li>
                 <span class="fa-li" ><i class="far fa-check-circle"></i></span>
