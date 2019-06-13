@@ -111,7 +111,7 @@ url: "/intensive"
 <div class="d-none d-md-block bg-white pt-5 pb-5">
 <div class="container">
     <div class="text-center">
-        <h3>Don't have enough time? Get a personalized schedule with your own trainer.</h3>
+        <h3>Don't have enough time? Learn from home twice a week.</h3>
         <p>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
