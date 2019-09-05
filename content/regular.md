@@ -67,7 +67,7 @@ url: "/regular"
             Recommended if you want to quickly assess your English skills, both reading and listening.
         </p>
         <p class="text-center text--share">
-            Share your EasySpeak score on social media channels
+            Share your Maltz English score on social media channels
         </p>
     </div>
 </div>
@@ -76,22 +76,22 @@ url: "/regular"
 <div class="row justify-content-center">
     <ul class="lal-social-dark text-align-center align-center">
       <li class="item">
-        <a class="link" href="https://www.facebook.com/BayLanguage/" target="_blank">
+        <a class="link" href="https://www.facebook.com/maltzenglish/" target="_blank">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
       <li class="item">
-        <a class="link" href="https://twitter.com/@Bli_SA/" target="_blank">
+        <a class="link" href="https://twitter.com/maltzenglish/" target="_blank">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
       <li class="item">
-        <a class="link" href="https://www.youtube.com/channel/UCfVcwbCc_Ssxu7yUPZs2wsA/" target="_blank">
+        <a class="link" href="https://www.youtube.com/channel/maltzenglish/" target="_blank">
           <i class="fab fa-youtube"></i>
         </a>
       </li>
       <li class="item">
-        <a class="link" href="https://www.instagram.com/baylanguage/" target="_blank">
+        <a class="link" href="https://www.instagram.com/maltzenglish/" target="_blank">
           <i class="fab fa-instagram"></i>
         </a>
       </li>
