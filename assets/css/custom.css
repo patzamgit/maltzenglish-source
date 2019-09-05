@@ -29,8 +29,8 @@
 
 .button {
     display: inline-block;
-    border: 2px solid #535961;
-    color: #535961;
+    border: 2px solid #293352;
+    color: #293352;
     text-transform: uppercase;
     padding: 8px 25px;
     margin-bottom: 10px;
@@ -40,7 +40,7 @@
 
 .button:hover {
     background: black!important;
-    border: 2px solid #4b4e53!important;
+    border: 2px solid #293352!important;
     color: #FFF!important;
 }
 
@@ -75,9 +75,9 @@
 
 .nav-item--student-login > .nav-link {
     margin-left: 20px;
-    background: #01589D;
+    background: #293352;
     color: #FFF !important;
-    border-radius: 32px;
+    border-radius: 5px;
     padding: 11px 20px 9px !important;
 }
 

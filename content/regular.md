@@ -4,8 +4,8 @@ type: "page"
 url: "/regular"
 ---
 
-<div class="hero-abstract bg-abstract bg-abstract--green">
-    <h1>REGULAR Plan / twice a week</h1>
+<div class="hero-abstract bg-abstract bg-abstract--grey">
+    <h1><font color="#293352">REGULAR Plan / twice a week</font></h1>
 </div>
 
 <div class="container choose-package__box choose-package__box--hero">

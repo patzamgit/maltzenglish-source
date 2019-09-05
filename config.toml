@@ -20,20 +20,13 @@ DisablePathToLower = true
   [[menu.main]]
       identifier = "redeem-code"
       name = "Redeem code"
-      url = "https://languagepanel.com/bli/code"
+      url = "https://languagepanel.com/mal/code"
       target = "_blank"
       weight = 1
 
   [[menu.main]]
-      identifier = "free-evaluation"
-      name = "Free evaluation"
-      url = "https://languagepanel.com/bli/callback"
-      target = "_blank"
-      weight = 2
-
-  [[menu.main]]
       identifier = "student-login"
       name = "Student Login"
-      url = "https://languagepanel.com/bli/student"
+      url = "https://languagepanel.com/mal/student"
       cssClass = "button--login"
       weight = 20

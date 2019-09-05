@@ -4,8 +4,8 @@ type: "page"
 url: "/intensive"
 ---
 
-<div class="hero-abstract bg-abstract bg-abstract--blue">
-    <h1>INTENSIVE Plan / three times per week</h1>
+<div class="hero-abstract bg-abstract bg-abstract--grey">
+    <h1><font color="#293352">INTENSIVE Plan / three times per week</font></h1>
 </div>
 
 <div class="container choose-package__box choose-package__box--hero">

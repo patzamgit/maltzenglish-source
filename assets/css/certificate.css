@@ -3,7 +3,7 @@
     padding: 0;
     width: 100%;
     
-    color: #3d3d55;
+    color: #293352;
     overflow: hidden;
 }
 
@@ -172,9 +172,9 @@ span[data-clipboard] {
 
 
 .btn--bg {
-    background: #3d3d55;
+    background: #293352;
     color: #FFF !important;
-    border-radius: 32px;
+    border-radius: 5px;
     padding: 10px 20px !important;
 }
 
